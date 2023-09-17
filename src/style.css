@@ -126,8 +126,9 @@ html {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
-.hero-text span{
+.hero-text p span{
     color: #709ca7;
+    font-weight: bold;
 }
 
 /* Styles pour les écrans de taille moyenne à large */
