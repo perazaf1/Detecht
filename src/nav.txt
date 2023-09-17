@@ -1,14 +1,6 @@
-/* Styles pour la barre de navigation (navbar) dans le style d'Apple */
-body,html {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif; /* Police San Francisco d'Apple */
-    margin: 0;
-    padding: 0;
-    height: 100%;
-
-}
-
-.navbar {
-    background-color: #344D59;
+CSS /
+navbar {
+    background-color: #344D59; 
     color: #fff; /* Couleur de texte clair */
     display: flex;
     justify-content: space-between;
@@ -72,33 +64,19 @@ body,html {
 }
 
 
-/* SECTION FIRST-CONTAINER */
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/drink.jpg");
-    height: 100%;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.hero-text {
-    text-transform: uppercase;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 30px;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.About-us{
-    text-align: center;
-    background-color: #344D59;
-    font-family: "San Francisco";
-    text-transform: none;
-    color: white;
-
-}
+htll :
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">Detecht</a>
+        </div>
+        <ul class="main_pages">
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#About-us">About Us</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
