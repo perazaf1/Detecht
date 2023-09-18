@@ -206,12 +206,20 @@ html {
         font-size: 24px; /* Augmentez la taille de police pour les écrans plus grands si nécessaire */
         padding: 40px; /* Augmentez la marge intérieure pour une meilleure mise en page */
     }
+    #buyNow{
+        padding: 20px 40px;
+    }
 }
 /* Styles pour les écrans plus petits */
 @media screen and (max-width: 576px) {
     .aboutUs {
         font-size: 18px; /* Réduisez la taille de la police pour les écrans plus petits si nécessaire */
         padding: 10px; /* Réduisez la marge intérieure pour une meilleure utilisation de l'espace */
+    }
+    #buyNow{
+        padding: 10px 20px;
+        font-size: 20px;
+        transform: translateY(100%);
     }
 }
 
@@ -237,12 +245,11 @@ html {
 }
 @media (max-width: 952px) {
     .arrowBtn a span {
-      height: 25px;
-      width: 25px;
+      height: 20px;
+      width: 20px;
     }
 }
 
-/* Styles de base */
 #txtAnim {
     font-size: 24px;
     max-width: 800px; /* Limite la largeur maximale pour un meilleur affichage sur les grands écrans */
@@ -259,6 +266,144 @@ html {
 /* Styles pour les écrans plus petits */
 @media screen and (max-width: 576px) {
     #txtAnim {
-        font-size: 18px; /* Réduit la taille de la police pour les écrans plus petits */
+        transform: translateY(60%);
+        font-size: 22px; /* Réduit la taille de la police pour les écrans plus petits */
+        margin: 20px;
     }
 }
+
+
+/* Styles de base pour le footer */
+#footer {
+    background-color: #344D59;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles pour le contenu du footer */
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styles pour le titre "Our Team" */
+.footer-content h1 {
+    font-size: 24px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-content p{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+
+/* Styles pour la liste des membres de l'équipe */
+.team-members {
+    list-style: none;
+    padding: 20px;
+}
+
+.team-members li {
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+.team-members li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.footer-content .footerAttributs{
+    font-family: 'Monsterrat';
+    font-size: 20px;
+}
+
+/* Styles pour les écrans de taille moyenne à large */
+@media screen and (min-width: 768px) {
+    .footer-content h1 {
+        font-size: 28px; /* Augmente la taille du titre pour les écrans plus grands si nécessaire */
+    }
+    
+    .team-members li {
+        font-size: 24px; /* Augmente la taille de la police pour les écrans plus grands si nécessaire */
+    }
+    .footer-content p{
+        font-size: 26px;
+    }
+
+}
+
+/* Styles pour les écrans plus petits */
+@media screen and (max-width: 576px) {
+    .team-members li img {
+        width: 25px; /* Réduit la taille des images pour les écrans plus petits */
+        height: 25px;
+    }
+    #pe  {
+        width: 85px; 
+        height:80px; 
+        margin-right: 5px; 
+        border-radius: 40%; 
+    }
+    #lionel{
+        width: 85px; 
+        height:95px; 
+        margin-right: 80px; 
+        border-radius: 40%; 
+    }
+    #benjamin{
+        width: 85px; 
+        height:95px; 
+        margin-right: 80px; 
+        border-radius: 40%; 
+    }
+
+    .team-members li {
+        font-size: 14px; /* Réduit la taille de la police pour les écrans plus petits */
+        margin: 10px 0; /* Réduit l'espacement entre les membres de l'équipe */
+    }
+    .footer-content h1{
+        font-size: 20px;
+    }
+    .footer-content p{
+        font-size: 14px;
+    }
+    .footer-content .footerAttributs p{
+        font-size: 12px;
+    }
+}
+
+.team-members li img {
+    width: 100px; 
+    height: 120px; 
+    margin-right: 10px; 
+    border-radius: 40%; 
+}
+#pe  {
+    width: 105px; 
+    height:100px; 
+    margin-right: 10px; 
+    border-radius: 40%; 
+}
+
+
+
+
+
