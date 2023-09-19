@@ -26,10 +26,10 @@ new Typewriter(txtAnim, {
   .pauseFor(1500)
   .deleteChars(15)
   .typeString('<span style="color: #709ca7"> no more violence </span>')
-  .pauseFor(1000)
+  .pauseFor(1500)
   .deleteChars(18)
   .typeString('<span style="color: #709ca7"> no more pilferage </span>')
-  .pauseFor(1000)
+  .pauseFor(1500)
   .deleteChars(19)
   .typeString('<strong style="color: #709ca7"> we all get a gentle life</strong>')
   .start();
