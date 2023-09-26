@@ -1,6 +1,6 @@
 /* Styles pour la barre de navigation (navbar) dans le style d'Apple */
 body,html {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif; /* Police San Francisco d'Apple */
+    font-family: "ITC Avant Garde Std Book", Arial, Helvetica, sans-serif; /* Police San Francisco d'Apple */
     margin: 0;
     padding: 0;
     height: 100%;
@@ -39,7 +39,7 @@ html {
     align-items: center;
     padding: 20px;
     text-transform: uppercase;
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    
 }
 .navbar a {
     color: #fff; /* Couleur de texte clair */
@@ -324,8 +324,8 @@ html {
 }
 
 .team-members li img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 120px;
     margin-right: 10px;
     border-radius: 50%;
 }
@@ -335,13 +335,8 @@ html {
     font-size: 20px;
 }
 
-.team-members li img {
-    width: 100px; 
-    height: 120px; 
-    margin-right: 10px; 
-    border-radius: 40%; 
-}
-#pe  {
+
+ #pe  {
     width: 105px; 
     height:100px; 
     margin-right: 10px; 
@@ -361,9 +356,21 @@ html {
     border-radius: 40%; 
 }
 #adrien{
-    width: 90px; 
-    height:105px; 
+    width: 105px; 
+    height:100px; 
     margin-right: 20px; 
+    border-radius: 40%; 
+}
+#lionel{
+    width: 105px; 
+    height:100px; 
+    margin-right: 10px; 
+    border-radius: 40%; 
+}
+#benjamin{
+    width: 105px; 
+    height:100px; 
+    margin-right: 10px; 
     border-radius: 40%; 
 }
 
@@ -397,39 +404,44 @@ html {
     }
     #lionel{
         width: 85px; 
-        height:95px; 
-        margin-right: 10px; 
+        height:80px; 
+        margin-right: 5px; 
         border-radius: 40%; 
+        font-size: 10px;
     }
     #benjamin{
         width: 85px; 
-        height:95px; 
-        margin-right: 10px; 
+        height:80px; 
+        margin-right: 5px; 
         border-radius: 40%; 
+        font-size: 10px;
     }
     #leon{
         width: 85px; 
         height:80px; 
-        margin-right: 10px; 
-        border-radius: 40%;
+        margin-right: 5px; 
+        border-radius: 40%; 
+        font-size: 10px;
 
     }
     #clarence{
-        width: 80px; 
+        width: 85px; 
         height:80px; 
-        margin-right: 10px; 
+        margin-right: 5px; 
         border-radius: 40%; 
+        font-size: 10px;
     }
     #adrien{
-        width: 75px; 
-        height:90px; 
-        margin-right: 20px; 
+        width: 85px; 
+        height:80px; 
+        margin-right: 5px; 
         border-radius: 40%; 
+        font-size: 10px;
     }
 
     .team-members li {
-        font-size: 14px; /* Réduit la taille de la police pour les écrans plus petits */
-        margin: 10px 0; /* Réduit l'espacement entre les membres de l'équipe */
+        font-size: 12px; /* Réduit la taille de la police pour les écrans plus petits */
+        margin: 8px 0; /* Réduit l'espacement entre les membres de l'équipe */
     }
     .footer-content h1{
         font-size: 20px;
