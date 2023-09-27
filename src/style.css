@@ -492,4 +492,204 @@ html {
     }
 } 
 
+.img{
+    background-image: url(/img/stick.png);
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    
+}
 
+.description{
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    background-color: #344D59;
+    color: white;
+    
+}
+.buttonsBuy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.description h1 {
+    align-items: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-top: -20px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 40px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-weight: bold;
+}
+
+.description button{
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border: none;
+    font-size: 27px;
+    cursor: pointer;
+    margin: 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.description button:hover{
+    background-color:#709ca7 ;
+    transform: scale(1.05) ;
+    transition: transform 0.2s ease;
+}
+
+.buttonAndPrice {
+    text-align: center; 
+}
+
+/* Style des boutons */
+.buttonAndPrice button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 30px; 
+}
+
+.buttonAndPrice p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0; 
+    padding-bottom: 80px;
+    color: black;
+}
+
+.product-container {
+    display: flex; /* Utilisez Flexbox pour créer une mise en page en colonnes */
+    align-items: center; /* Centre verticalement les éléments */
+    margin-bottom: 20px; /* Ajoute de l'espace en bas du conteneur */
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-image {
+    flex: 1; /* La première colonne prendra autant d'espace que possible */
+    padding: 20px; /* Ajoute de l'espace autour de l'image */
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-description {
+    flex: 2; /* La deuxième colonne prendra le double d'espace que la première */
+    padding: 20px; /* Ajoute de l'espace autour de la description */
+    display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+    flex-direction: column; /* Aligne les éléments en colonnes */
+    align-items: flex-start; /* Aligne les éléments à gauche */
+    transition: opacity 0.3s ease-in-out; /* Animation de l'opacité */
+}
+
+
+.product-description h1 {
+    font-size: 32px; /* Taille du titre */
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: black; /* Couleur du texte du titre */
+    margin-top: 0; /* Supprime la marge en haut du titre */
+    margin-bottom: 15px; /* Ajoute de la marge en bas du titre */
+    left: -50%;
+    font-weight: bold;
+    transform: translateY(20px); /* Animation de déplacement initial */
+    transition: transform 0.3s ease-in-out; /* Animation de déplacement */
+}
+
+.product-description ul {
+    list-style-type: disc; /* Utilise des puces rondes pour la liste */
+    padding-left: 20px; /* Ajoute un décalage à gauche pour la liste */
+    margin-top: 10px; /* Ajoute de la marge en haut de la liste */
+    padding-bottom: 30px;
+    color: black;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+.product-description ul li {
+    font-size: 20px; /* Taille du texte de la liste */
+    margin-bottom: 15px; /* Ajoute de la marge en bas de chaque élément de la liste */
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+}
+
+.product-description ul li:hover {
+    opacity: 1.5;
+    color: #137C8B;
+}
+
+.product-description h2 {
+    font-size: 24px; /* Titre du prix plus grand */
+    color: black;; /* Couleur spécifique pour le prix */
+    margin-top: 15px; /* Ajoute de la marge en haut du prix */
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer; /* Ajouter un curseur pointeur pour indiquer que c'est cliquable */
+    transition: color 0.3s ease-in-out; /* Animation pour les changements de couleur */
+}
+.product-description h2:hover{
+    color: #137C8B;
+}   
+
+.product-description h1:hover{
+    color: #137C8B;
+}   
+.product-image img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+    display: flex;
+    max-width: 100%; /* La largeur maximale de l'image est de 100% de la largeur de son conteneur */
+    height: auto;
+}
+
+.product-image img:hover{
+    transform: scale(1.05) ;
+    transition: transform 0.3s ease-in;
+    behavior: smooth;
+}
+
+/* Media query pour les écrans plus petits (par exemple, les smartphones) */
+@media screen and (max-width: 600px) {
+    .product-container {
+        flex-direction: column; /* Colonne pour les écrans étroits */
+    }   
+    .product-description h1 {
+        font-size: 24px; /* Réduire la taille du titre */
+    }   
+    .product-description ul li {
+        font-size: 16px; /* Réduire la taille du texte de la liste */
+    }  
+    .product-description h2 {
+        font-size: 20px; /* Réduire la taille du titre du prix */
+    }
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description{
+    background-color: white;
+    color: #137C8B;
+}

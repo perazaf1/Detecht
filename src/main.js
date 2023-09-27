@@ -35,6 +35,23 @@ new Typewriter(txtAnim, {
   .start();
 
   
-  
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtenez tous les éléments h2 (titres de prix)
+    var priceTitles = document.querySelectorAll(".product-description h2");
+
+    // Ajoutez un gestionnaire d'événement au clic sur chaque titre de prix
+    priceTitles.forEach(function(title) {
+        title.addEventListener("click", function() {
+            // Trouvez le parent du parent de l'élément cliqué (.product-container)
+            var parent = this.parentElement.parentElement;
+
+            // Basculez la classe 'open' sur le parent pour afficher/cacher la description
+            parent.classList.add.toggle("open");
+        });
+    });
+});
+
+
 
 

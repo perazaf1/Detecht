@@ -35,18 +35,70 @@
         </div>
     </nav>
 
-    <div class="img"></div>
-    <div class="description">
 
-        <h1>At Detech't we sell 2 products :</h1>
-        <h2>The base Model iDetech't</h2>
-        <h2>The iDetech't </h2>
-        <div class="baseModel">
-        </div>
-        <div class="upgradedModel"></div>
+    <div class="arrowBtn">
+        <a href="#"><span class="fas fa-arrow-up"></span></a>
     </div>
 
+    <div class="video-container">
+        <video id="background-video" autoplay loop muted>
+            <source src="/img/stick/stick-1.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="description">
 
+        <h1>Our 2 products</h1>
+
+
+        <div class="buttonAndPrice">
+            <button><a href="#baseModel">iDetech't base model</a></button>
+            <p id="price">From 29$</p>
+        </div>
+        <div class="buttonAndPrice">
+            <button><a href="#upgradeModel">iDetech't Plus</a></button>
+            <p id="price">From 89$</p>
+        </div>
+        
+        <div id="baseModel" class="product-container">
+            <div class="product-image">
+                <img id="img1" src="/img/stick/stick-baseModel.png" alt="Image du produit">
+            </div>
+            <div class="product-description">
+                <h1>iDetech't base model - Main features</h1>
+                <ul>
+                    <li>Detect drugs like GHB</li>
+                    <li>Made from recyclable aluminum</li>
+                    <li>2 weeks-lasting battery</li>
+                    <li>Returnable on hold</li>
+                    <li>Lightweight - 89g</li>
+                </ul>
+                
+                <h2>Affordable price - 29$</h2>
+            </div>
+            
+        </div>
+
+        <div id="upgradeModel" class="product-container">
+            <div class="product-image">
+                <img id="img2" src="/img/stick/stick2-2.jpg" alt="Image du produit">
+            </div>
+            <div class="product-description">
+                <h1>iDetech't Plus - Main features</h1>
+                <ul>
+                    <li>Detect all drugs like GHB, Ketamine or Rohypnol</li>
+                    <li>Crafted from premium titanium</li>
+                    <li>USB-C rechargeable</li>
+                    <li>20 hours lasting battery</li>
+                    <li>Fully customizable</li>
+                    <li>Available in 5 different colours</li>
+                </ul>
+                <h2>Starting at 89$</h2>
+            </div>
+        </div>
+        
+    </div>
+
+ 
 
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
