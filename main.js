@@ -15,7 +15,6 @@ window.addEventListener('load', function(){
 })
 
 const txtAnim = document.getElementById('txtAnim');
-
 new Typewriter(txtAnim, {
     deleteSpeed: 3
   })
@@ -34,7 +33,6 @@ new Typewriter(txtAnim, {
   .typeString('<strong style="color: #709ca7"> we all get a gentle life</strong>')
   .start();
 
-  
 
 document.addEventListener("DOMContentLoaded", function() {
     // Obtenez tous les éléments h2 (titres de prix)
