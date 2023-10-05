@@ -1,23 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const hamburgerMenu = document.querySelector(".hamburger-menu");
-    const navLinks = document.querySelector(".nav-links");
+  const hamburgerMenu = document.querySelector(".hamburger-menu");
+  const navLinks = document.querySelector(".nav-links");
 
-    hamburgerMenu.addEventListener("click", function () {
-        navLinks.classList.toggle("active");
-    });
+  hamburgerMenu.addEventListener("click", function () {
+    navLinks.classList.toggle("active");
+  });
 });
 
-const hello = document.getElementById("intro")
-var loader = document.getElementById('preloader')
+const hello = document.getElementById("intro");
+var loader = document.getElementById("preloader");
 
-window.addEventListener('load', function(){
-    loader.style.display = "none"
-})
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
 
-const txtAnim = document.getElementById('txtAnim');
+const txtAnim = document.getElementById("txtAnim");
 new Typewriter(txtAnim, {
-    deleteSpeed: 3
-  })
+  deleteSpeed: 3,
+})
 
   .typeString("With our products,")
   .pauseFor(200)
@@ -30,26 +30,23 @@ new Typewriter(txtAnim, {
   .typeString('<span style="color: #709ca7"> no more pilferage </span>')
   .pauseFor(1500)
   .deleteChars(19)
-  .typeString('<strong style="color: #709ca7"> we all get a gentle life</strong>')
+  .typeString(
+    '<strong style="color: #709ca7"> we all get a gentle life</strong>'
+  )
   .start();
 
+document.addEventListener("DOMContentLoaded", function () {
+  // Obtenez tous les éléments h2 (titres de prix)
+  var priceTitles = document.querySelectorAll(".product-description h2");
 
-document.addEventListener("DOMContentLoaded", function() {
-    // Obtenez tous les éléments h2 (titres de prix)
-    var priceTitles = document.querySelectorAll(".product-description h2");
+  // Ajoutez un gestionnaire d'événement au clic sur chaque titre de prix
+  priceTitles.forEach(function (title) {
+    title.addEventListener("click", function () {
+      // Trouvez le parent du parent de l'élément cliqué (.product-container)
+      var parent = this.parentElement.parentElement;
 
-    // Ajoutez un gestionnaire d'événement au clic sur chaque titre de prix
-    priceTitles.forEach(function(title) {
-        title.addEventListener("click", function() {
-            // Trouvez le parent du parent de l'élément cliqué (.product-container)
-            var parent = this.parentElement.parentElement;
-
-            // Basculez la classe 'open' sur le parent pour afficher/cacher la description
-            parent.classList.add.toggle("open");
-        });
+      // Basculez la classe 'open' sur le parent pour afficher/cacher la description
+      parent.classList.add.toggle("open");
     });
+  });
 });
-
-
-
-
