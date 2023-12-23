@@ -1,3 +1,14 @@
+document.addEventListener('copy', function (e) {
+  e.preventDefault(); // Empêche l'action de copier par défaut
+  alert("La copie de contenu est désactivée sur ce site.");
+});
+
+document.addEventListener('cut', function (e) {
+  e.preventDefault(); // Empêche l'action de couper par défaut
+  alert("La coupe de contenu est désactivée sur ce site.");
+});
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const hamburgerMenu = document.querySelector(".hamburger-menu");
   const navLinks = document.querySelector(".nav-links");
