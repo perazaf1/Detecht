@@ -30,8 +30,9 @@ To get started with the Detech't website locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/detecht-website.git
 
-Open the index.html file in your preferred web browser.
-Contributing
+**Open the index.html file in your preferred web browser.**
+
+## Contributing
 We welcome contributions from the community! If you'd like to contribute to the Detech't website, please follow our Contribution Guidelines. We appreciate your help in making Detech't even better.
 
 ## Team
