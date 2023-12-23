@@ -34,16 +34,17 @@ Open the index.html file in your preferred web browser.
 Contributing
 We welcome contributions from the community! If you'd like to contribute to the Detech't website, please follow our Contribution Guidelines. We appreciate your help in making Detech't even better.
 
-Team
-Meet the amazing individuals behind Detech't:
+## Team
+**Meet the amazing individuals behind Detech't:**
 
-Léon JANG - CEO
-Benjamin LIN - Product designer
-Adrien TILLIETTE - Technical engineer
-Lionel DU - Chemical engineer
-Paul-Emile RAZAFINDRAKOTO - Sales manager
-Clarence PERICOI - Communication manager
-License
+**Léon JANG** - CEO
+**Benjamin LIN** - Product designer
+**Adrien TILLIETTE** - Technical engineer
+**Lionel DU** - Chemical engineer
+**Paul-Emile RAZAFINDRAKOTO** - Sales manager
+**Clarence PERICOI** - Communication manager
+
+## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
 
 © 2023 Detecht.fr
