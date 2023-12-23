@@ -36,7 +36,7 @@ To get started with the Detech't website locally, follow these steps:
 We welcome contributions from the community! If you'd like to contribute to the Detech't website, please follow our Contribution Guidelines. We appreciate your help in making Detech't even better.
 
 ## Team
-**Meet the amazing individuals behind Detech't:**
+Meet the amazing individuals behind Detech't:
 
 - **Léon JANG** - CEO
 - **Benjamin LIN** - Product designer
